@@ -22,6 +22,23 @@ namespace EXE5
         }
         public void Insert()
         {
+            string add;
+            Node newnode = new Node();
+            Console.WriteLine("Masukkan Element :");
+            add = Console.ReadLine();
+            newnode.name = add;
+            newnode.next = syafrizal;
+            if(muh == null)
+            {
+                muh = newnode;
+                syafrizal = newnode;
+                return;
+            }
+            syafrizal.next = newnode;
+            syafrizal = newnode;
+        }
+        public void Delete()
+        {
 
         }
     }
