@@ -50,8 +50,19 @@ namespace EXE5
         }
         public void Display()
         {
-
+            if(muh == null)
+            {
+                Console.WriteLine("\nQueue is Empty");
+                return ;
+            }
+            Node display;
+            for(display = muh; display != null; display = display.next)
+                Console.WriteLine(display.name);
         }
+    }
+    class program
+    {
+
     }
     
 }
