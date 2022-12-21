@@ -13,7 +13,9 @@ namespace EXE5
     }
     class Queue
     {
+        public Node muh, syafrizal;
 
+        
     }
     
 }
