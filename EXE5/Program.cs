@@ -27,7 +27,7 @@ namespace EXE5
             Console.WriteLine("Masukkan Element :");
             add = Console.ReadLine();
             newnode.name = add;
-            newnode.next = syafrizal;
+            newnode.next = null;
             if(muh == null)
             {
                 muh = newnode;
@@ -62,7 +62,10 @@ namespace EXE5
     }
     class program
     {
+        static void Main(string[] args)
+        {
 
+        }
     }
     
 }
