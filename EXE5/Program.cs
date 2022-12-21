@@ -17,6 +17,11 @@ namespace EXE5
 
         public Queue()
         {
+            muh = null;
+            syafrizal = null;
+        }
+        public void Insert()
+        {
 
         }
     }
