@@ -64,7 +64,42 @@ namespace EXE5
     {
         static void Main(string[] args)
         {
-
+            Queue qe = new Queue();
+            char ch;
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("\nMenu");
+                    Console.WriteLine("1. Menambahkan data ke dalam list");
+                    Console.WriteLine("2. menghapus Data dari dalam list");
+                    Console.WriteLine("3. Melihat Semua data di dalam list");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("Masukkan pilihan anda (1-4): ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    switch (ch)
+                    {
+                        case '1':
+                            qe.Insert();
+                            break;
+                        case '2':
+                            qe.Delete();
+                            break;
+                        case '3':
+                            qe.Display();
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            Console.WriteLine("Wrong Option");
+                            break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("\nCheck for the value entered");
+                }
+            }
         }
     }
     
