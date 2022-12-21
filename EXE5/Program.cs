@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace EXE5
 {
-    internal class Program
+    class Queues
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
+    
 }
