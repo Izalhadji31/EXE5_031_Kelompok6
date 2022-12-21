@@ -15,7 +15,10 @@ namespace EXE5
     {
         public Node muh, syafrizal;
 
-        
+        public Queue()
+        {
+
+        }
     }
     
 }
