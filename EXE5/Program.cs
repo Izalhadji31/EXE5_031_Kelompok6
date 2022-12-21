@@ -39,6 +39,17 @@ namespace EXE5
         }
         public void Delete()
         {
+            if(muh == null)
+            {
+                Console.WriteLine("\nList is Empty");
+                return;
+            }
+            syafrizal = syafrizal.next;
+            if (muh == null)
+                syafrizal = null;
+        }
+        public void Display()
+        {
 
         }
     }
