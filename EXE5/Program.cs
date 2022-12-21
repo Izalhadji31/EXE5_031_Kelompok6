@@ -8,6 +8,11 @@ namespace EXE5
 {
     class Node
     {
+        public string name;
+        public Node next;
+    }
+    class Queue
+    {
 
     }
     
